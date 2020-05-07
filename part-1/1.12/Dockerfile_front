@@ -1,0 +1,12 @@
+FROM node:10
+
+COPY . /app/frontend
+WORKDIR /app/frontend
+
+EXPOSE 5000
+
+RUN npm ci
+
+ENV API_URL=http://localhost:8000
+
+CMD ["npm", "start"]

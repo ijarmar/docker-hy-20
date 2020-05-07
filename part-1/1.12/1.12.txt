@@ -1,0 +1,2 @@
+sudo docker run -d -p 5000:5000 frontend-example
+sudo docker run -d -p 8000:8000 -v $(pwd)/logs.txt:/app/backend/logs.txt backend-example
