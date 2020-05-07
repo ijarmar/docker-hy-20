@@ -1,0 +1,18 @@
+sudo docker run -d --rm --name clock devopsdockeruh/exec_bash_exercise
+sudo docker exec -it clock bash
+
+root@b5b76bd0c882:/usr/app# tail -f ./logs.txt
+Thu, 07 May 2020 08:53:10 GMT
+Thu, 07 May 2020 08:53:13 GMT
+Thu, 07 May 2020 08:53:16 GMT
+Thu, 07 May 2020 08:53:19 GMT
+Secret message is:
+"Docker is easy"
+Thu, 07 May 2020 08:53:25 GMT
+Thu, 07 May 2020 08:53:28 GMT
+Thu, 07 May 2020 08:53:31 GMT
+Thu, 07 May 2020 08:53:34 GMT
+Secret message is:
+"Docker is easy"
+Thu, 07 May 2020 08:53:40 GMT
+Thu, 07 May 2020 08:53:43 GMT
