@@ -1,5 +1,2 @@
-Because ruby on rails is a horrible piece of technology the only way I found to make this work is to:
-1. replace the Gemfile with the one provided in this directory (because of weird bug with tzinfo-data package)
-2. remove old Gemfile.lock
-3. build the image with sudo docker build -t rails-example .
-4. sudo docker run -d -p 3000:3000 rails-example
+sudo docker build -t rails-example .
+sudo docker run -d -p 3000:3000 rails-example
