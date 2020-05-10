@@ -1,0 +1,3 @@
+my default setup for everyday development. This dockerfile sets up ubuntu 18.04 with LAMP (Linux, Apache, MariaDB, PHP), node and ruby.
+
+Link: https://hub.docker.com/repository/docker/ijarmar/mysetup
